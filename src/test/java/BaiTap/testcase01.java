@@ -59,7 +59,7 @@ public class testcase01 {
 
             //Step 5. Verify all products are sorted by name
             File screenshotFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-            FileUtils.copyFile(screenshotFile, new File("src/test/resources/image/screenshot.png"));
+            FileUtils.copyFile(screenshotFile, new File("src/test/resources/image/testcase1.png"));
 
         }catch (Exception e){
             e.printStackTrace();
