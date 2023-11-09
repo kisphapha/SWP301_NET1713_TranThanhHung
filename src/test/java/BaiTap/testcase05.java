@@ -56,7 +56,7 @@ public class testcase05 {
             Thread.sleep(200);
             registerPage.enterLastName("kwoakdoawkdoa");
             Thread.sleep(200);
-            registerPage.enterEmail("kokokokoakokwo2a@gmail.com");
+            registerPage.enterEmail("kokokokoakokw09o2a@gmail.com");
             Thread.sleep(200);
             registerPage.enterPassword("123456");
             Thread.sleep(200);

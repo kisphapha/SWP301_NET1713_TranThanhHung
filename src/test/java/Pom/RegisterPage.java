@@ -15,6 +15,9 @@ public class RegisterPage {
     By passwordInputLocator = By.id("password");
     By confirmPasswordInputLocator = By.id("confirmation");
     By registerButton = By.xpath("//button[@title='Register']");
+    //login
+
+
 
     public RegisterPage(WebDriver driver) {
         this.driver = driver;
@@ -61,6 +64,8 @@ public class RegisterPage {
     public void clickRegisterButton() {
         driver.findElement(registerButton).click();
     }
+
+
 
 
 
